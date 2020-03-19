@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-size: 1.1rem;
+}
+.red{
+    color: red;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    width: 1000px;
+    height: 100vh;
+    background-color: gray;
+}
+
+
+/*#anim_1{
+    margin: auto;
+    position: absolute;
+    z-index: 999;
+    width: 200px;
+    height: 300px;
+    bottom: 0.1em;
+    transform: skewx(10deg);
+    background-color: red;
+
+
+    #anim_2{
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    bottom: 0.1em;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    transform: skewx(10deg);
+}
+}*/
+#logo_mail{
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    top: -3.8rem;
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+   
+    
+    
+}
+
+#logo_send{
+    left: 1rem;
+    bottom: -15%;
+    min-width: 5rem;
+    min-height: 9em;
+    z-index: 999;
+    position: absolute;
+
+}
+
+form{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    background-color: rgb(222, 216, 216);
+    z-index: 1;
+    position: absolute;
+    div{
+        width: 90%;
+    }
+    input{
+        border-radius: 5px;
+        width: 100%;
+        height: 2rem;
+        background-image: linear-gradient(315deg, #7f53ac 10%, #647dee 74%);
+        
+    }
+}
+
+#send_mail{
+   width: 0.3em;
+   color: red;
+    img{
+        width: 3em;
+    }
+
+}
+
+button{
+    border-radius: 5%;
+    width: 8rem;
+    height: 3rem;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+}
+
+.button_valid{
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/form.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="container">
+            <form id="form" action="" method="GET">
+                <div id="logo_mail"><ion-icon name="mail-outline" id="logo_send"></ion-icon></i></div>
+                <div style="margin-top: 1.5rem;">
+                    <label for="name" > First name : </label>
+                    <input type="text" id="name" name="name">
+                    <div id="error_name" class="red"></div>
+                </div>
+                <div>
+                    <label for="surname" > Last name : </label>
+                    <input type="text" id="surname" name="surname">
+                    <div id="error_surname" class="red"></div>
+                </div>
+                <div>
+                    <label for="email"> Email : </label>
+                    <input type="text" id="email" name="email">
+                    <div id="error_email" class="red"></div>
+                </div>
+                <div>
+                    <label for="mdp" > Password : </label>
+                    <input type="password" id="mdp" name="mdp">
+                    <div id="error_mdp" class="red"></div>
+                </div>
+                <div>
+                    <label for="mdp" > Confirm Password: </label>
+                    <input type="password" id="mdp_confirm" name="mdp_confirm">
+                    <div id="error_mdp_confirm" class="red"></div>
+                </div>
+                <div>
+                    <button type="submit" id="submit">submit</button>
+                    
+                    
+                </div>
+                
+            </form>
+            
+       
+        </div>
+      
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        <script src="assets/js/form.js" async defer></script>
+    </body>
+</html>
