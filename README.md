@@ -4,3 +4,6 @@
 
 19/03/20
 - formulaire (validation js (prénom, nom, mdp, email)) Version 0.5
+
+
+Utilisable en v1
